@@ -12,7 +12,7 @@ class PostDetail extends Component {
       })
       .then(() => {
         if (this.props.posts.length)
-          this.props.postSelect(this.props.posts[0  ].id);
+          this.props.postSelect(this.props.posts[0].id);
     
           else {
           document.getElementById("postTitle").innerHTML = "Create a new post";
