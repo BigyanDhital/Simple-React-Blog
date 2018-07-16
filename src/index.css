@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.028em;
+  line-height: 23px;
+  font-size: 14px;
+}
+.heading{
+  font-family: high tower text;
+  padding: 10px 5px; 
+}
+.content{
+  margin: 30px 0px;
+  min-height: 610px;
+}
+.list-group{
+  border:none;
+  background: none;
+  
+}
+
+.list-group-item{
+    margin-left: -5px;
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+.list-group-item :hover{
+  font-size: larger;
+
+}
+
+.topListItem{
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  height: 30px;
+}
+.recentPosts{
+font-weight: bold;
+}
+
+.selectedPost {
+  border-left: 3px solid rgb(6, 150, 83);
+
+}
+
+.list-group .title{
+  font-size: 16px;
+  font-weight: bold;
+  padding: none;
+  margin-top: -5px;
+  margin-left: -5px;
+
+}
+.list-group .body{
+  padding-left: 20px;
+  font-size: 14px;
+  margin-left: -5px;
+  color: #5f5e5e;
+} 
+.selectedPostDetail {
+  font-weight: 200;
+}
+.selectedPostDetail h6{
+  font-size: 13px;
+  color: #5a5757;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px
+}
+
+.create-post{
+  padding: 10px 10px 20px 20px;
+  width: 100%;
+}
+.create-post input{
+  border-radius: 8px;
+  border: 1px solid rgb(169, 168, 168);
+  padding: 5px 10px 5px 10px;
+  width: 30%;
+  min-width: 15%;
+  height: 38.5px;
+  margin-left: 2%;
+}
+.create-post .newPostButton{
+  margin-left: 2%;
+  width: 20%;
+  min-width: 10%;
+}
+
+.post-actions{
+ float: right;
+}
+.post-actions div.buttons{
+  margin-left: 20px;
+  text-transform:uppercase;
+  margin-top: 40px;
+}
