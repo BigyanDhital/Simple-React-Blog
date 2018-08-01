@@ -23,7 +23,13 @@
     {
       "id": 7,
       "title": "Hawa Post",
-      "body": "This post is full hawa" }
+      "body": "This post is full hawa"
+    },
+    {
+      "id": 8,
+      "title": "new post is awesome",
+      "body": "this post is even more amazing"
+    }
   ],
-  "comments":[]
+  "comments": []
 }

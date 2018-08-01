@@ -5,19 +5,16 @@ import PostDetail from "./containers/post-detail";
 import CreatePost from './containers/create-post'
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return (
+const App = ()  => (
       <div>
         <h3 className="heading">Hi, Please read my simple blog</h3>
         <div className="content">
-       <CreatePost/>
+          <CreatePost/>
           <BlogPostsList />
           <PostDetail />
         </div>
       </div>
     );
-  }
-}
+
 
 export default App;

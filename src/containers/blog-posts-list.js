@@ -66,6 +66,8 @@ function mapDispatchToProps(dispatch) {
   );
 }
 
+export {BlogPostsList};
+
 export default connect(
   mapStateToProps,
   mapDispatchToProps

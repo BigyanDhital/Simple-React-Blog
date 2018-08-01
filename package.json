@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "lodash": "^4.17.10",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.13.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
-    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
     "redux-promise": "^0.6.0"
@@ -17,6 +19,24 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "selenium-setup": "selenium-standalone install",
+    "selenium-start": "selenium-standalone start",
+    "e2e-tests": "wdio wdio.conf.js",
+    "e2e-tests-watch": "wdio wdio.conf.js --watch"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "prop-types": "^15.6.2",
+    "react-test-renderer": "^16.4.1",
+    "selenium-standalone": "^6.15.1",
+    "wdio-mocha-framework": "^0.6.2",
+    "webdriverio": "^4.13.1"
   }
 }
